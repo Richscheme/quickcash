@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="css/signUp.css">
+    <link rel="stylesheet" href="css/css/all.min.css">
+    <style>
+        .backgroundImage {
+            background-image: url('images/map.jpg');
+            background-size: cover;
+        }
+    </style>
+</head>
+<!-- Gold, Emerald, Ruby , Diamond -->
+
+<body id="body">
+    <i class="blabla"><h1 style="color: red;">
+        Can't display on a large screen try using a smaller screen!!!
+    </h1></i>
+    <div class="container">
+        <nav class="menuBtn">
+            <!-- The button below embedded in this nav is meant for display on smaller screens -->
+            <button onclick="openMenuBar()" class="menu">☰ Menu</button>
+        </nav>
+        <nav class="menuBar" id="menu">
+            <!-- The <a></a> tags below is meant to display menu -->
+            <button onclick="closeMenuBar()" class="menu">X</button>
+            <a href="" class="menus">HOME</a>
+            <a href="" class="menus">INVESTMENT PACKAGES</a>
+            <a href="" class="menus">PAYMENTS</a>
+            <a href="" class="menus">REFFERALS</a>
+            <a href="" class="menus">ACCOUNT</a>
+            <a href="" class="menus">LOGIN</a>
+            <a href="signUp.html" target="_blank" class="menus">SIGN UP</a>
+            <a href="" class="menus">LOG OUT</a>
+        </nav>
+        <!-- This header serves as a heading and describes the webpage -->
+        <header id="heading">Sign Up Form</header>
+        <div id="pageContainer">
+            <div id="formDiv">
+                <form action="landingPage.html" class="mySignUpForm"><br>
+                    <div class="parts">
+                        <input type="text" placeholder="Surname" id="sname" required class="inputs">
+                        <p class="feedBack" id="snameFeedBack"></p><br>
+                        <input type="text" placeholder="Last Name" id="lname" required class="inputs">
+                        <p class="feedBack" id="lnameFeedBack"></p><br>
+                        <input type="text" placeholder="Activation Code" id="actcode" required class="inputs">
+                        <p id="actCodeFeedBack" class="feedBack"></p><br>
+                        <input type="email" placeholder="Email" id="email" required class="inputs"><br>
+                        <input type="email" placeholder="Confirm Email" id="conemail" required class="inputs">
+                        <p id="emailFeedBack" class="feedBack"></p><br>
+                        <p id="emailFeedBack2" class="feedBack"></p>
+                    </div>
+                    <div class="parts">
+                        <input type="number" placeholder="Mobile Number" id="mobnum" rquired class="inputs"><br>
+                        <input type="password" placeholder="Password" id="pwd" required class="inputs"><br>
+                        <input type="password" placeholder="Confim Password" id="conpwd" required class="inputs">
+                        <p id="pwdFeedBack" class="feedBack"></p>
+                        <p id="pwd2FeedBack" class="feedBack"></p>
+                        <p id="case">Already have an account? <a href="">Login</a></p><br>
+                        <input type="submit" value="Sign Up" id="submit"><br><br>
+                        <span>Don't have an activation code? Contact vendor on <i class="fab fa-whatsapp    "></i>09042842123</span>
+                        <span>Activation code is <span>&#8358</span>2000</span><br>
+                        <span>Don't make payment to anyone whose contact is not giving on this site</span>
+                        <i>Beware of <em>SCAMMERS</em>!!!</i><br>
+                        <span>
+                            Be careful to input your correct details and click the validate button below. Wait for the syatem to validate your data and then click sign up button
+                        </span>
+                    </div>
+                </form><br>
+                <button onclick="validateForm()" id="validate">Validate Details</button>
+            </div>
+            <div id="imgDiv">
+                <main class="backgroundImage">
+                    Join us now let's show you the road map to success
+                </main><br>
+                <aside class="backgroundImage1">
+                    Join RICHSCHEME Today, we make MILLIONAIRES
+                </aside>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/myScript.js"></script>
+</body>
+</html>

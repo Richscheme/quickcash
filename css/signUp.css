@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: linear-gradient(to right, rgb(0, 89, 255), rgb(15, 231, 210));
+}
+@media screen and (min-width:1301px) {
+    .container {
+        display: none;
+    }
+}
+@media screen and (max-width:1300px) {
+    /* css styling for mobile view */
+    .blabla {
+        display: none;
+    }
+    .menuBtn {
+        /* background: green; */
+        padding: 1vw;
+        text-align: right;
+    }
+    .menuBtn button {
+        background: none;
+        border: none;
+        font-size: 3vw;
+        color: whitesmoke;
+    }
+    .menuBar {
+        background: #111;
+        height: 100%;
+        width: 0;
+        top: 0;
+        position: absolute;
+        overflow-x: hidden;
+    }
+    .menuBar button {
+        background: none;
+        border: none;
+        font-size: 4vw;
+        margin-left: 85%;
+        color: whitesmoke;
+        margin-top: 3vw;
+    }
+    .menus {
+        color: #818181;
+        font-size: 3vw;
+        text-decoration: none;
+        padding: 1.5vw;
+        display: block;
+    }
+    #heading {
+        font-size: 6vw;
+        color: whitesmoke;
+        text-align: center;
+    }
+    form {
+        width: 90%;
+        margin: auto;
+        background: whitesmoke;
+        margin-top: 3vw;
+        border-top-left-radius: 1vw;
+        border-top-right-radius: 1vw;
+        border-bottom-left-radius: 1vw;
+        border-bottom-right-radius: 1vw;
+    }
+    .inputs {
+        display: block;
+        width: 90%;
+        padding: 2vw;
+        margin: auto;
+        font-size: 3.5vw;
+        background: white;
+        border: grey 1px solid;
+    }
+    .feedBack {
+        margin-left: 3vw;
+        font-size: 4vw;
+        color: red;
+    }
+    form #case {
+        margin-left: 3vw;
+        font-size: 4vw;
+        color: green;
+    }
+    form p a {
+        color: rgb(0, 89, 255);
+        text-decoration: none;
+    }
+    #submit {
+        height: 0vw;
+        width: 0vw;
+        font-size: 4vw;
+        color: whitesmoke;
+        margin-left: 55vw;
+    }
+    #pageContainer span {
+        margin-left: 3vw;
+        font-size: 3vw;
+    }
+    #pageContainer span i {
+        color: green;
+    }
+    #pageContainer i {
+        color: red;
+        font-size: 5vw;
+        margin-left: 3vw;
+    }
+    #validate {
+        width: 30vw;
+        height: 10vw;
+        background: grey;
+        color: whitesmoke;
+        margin-left: 35vw;
+        border: none;
+        font-size: 4vw;
+    }
+    .backgroundImage {
+        width: 90%;
+        margin: auto;
+        font-size: 14vw;
+        color: whitesmoke;
+        margin-top: 9vw;
+        text-align: center;
+    }
+    .backgroundImage1 {
+        width: 90%;
+        margin: auto;
+        font-size: 12vw;
+        color: whitesmoke;
+        margin-top: 9vw;
+        text-align: center;
+        background: red;
+    }
+    .menuBtn {
+        /* background: green; */
+        padding: 1vw;
+        text-align: right;
+    }
+    .menuBtn button {
+        background: none;
+        border: none;
+        font-size: 3vw;
+        color: whitesmoke;
+    }
+    .menuBar {
+        background: #111;
+        height: 100%;
+        width: 0;
+        top: 0;
+        position: absolute;
+        overflow-x: hidden;
+    }
+    .menuBar button {
+        background: none;
+        border: none;
+        font-size: 4vw;
+        margin-left: 85%;
+        color: whitesmoke;
+        margin-top: 3vw;
+    }
+    .menus {
+        color: #818181;
+        font-size: 3vw;
+        text-decoration: none;
+        padding: 1.5vw;
+        display: block;
+    }
+    #heading {
+        font-size: 6vw;
+        color: whitesmoke;
+        text-align: center;
+    }
+    form {
+        width: 90%;
+        margin: auto;
+        background: whitesmoke;
+        margin-top: 3vw;
+        border-top-left-radius: 1vw;
+        border-top-right-radius: 1vw;
+        border-bottom-left-radius: 1vw;
+        border-bottom-right-radius: 1vw;
+    }
+    .inputs {
+        display: block;
+        width: 90%;
+        padding: 2vw;
+        margin: auto;
+        font-size: 3.5vw;
+        background: white;
+        border: grey 1px solid;
+    }
+}
